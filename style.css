@@ -1,0 +1,106 @@
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+.container {
+    max-width:1515px;
+    margin: 0 auto;
+}
+
+.top-line {
+    background-color: #E5E5E5;
+    padding: 1.7rem 0 1.6rem 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #333333;
+}
+
+.navigation__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__item {
+    padding-right: 3rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.second-line {
+    padding: 2rem 0 3rem 0;
+}
+
+.second-line__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 172px;
+}
+
+.logo__title {
+    margin-left: 2rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+}
+
+.search-input {
+    margin-right: 93px;
+}
+
+.search-input__input {
+    height: 30px;
+    width: 250px;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    border: none;
+    background: url(./assets/second-line/search.png) no-repeat left;
+    background-position-x: 20px;
+    background-color: #EFEFEF;
+}
+
+.telephone-for-call {
+    margin-right: 40px;
+}
+
+.telephone-for-call__number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #000000;
+}
+
+.call-button {
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    border: 2px solid #F13C6E;
+    background: #FFFFFF;
+    border-radius: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    
+}
